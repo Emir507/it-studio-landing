@@ -137,6 +137,18 @@
   }
 }
 
+@media (min-width: 1264px) and (max-width: 1904px) {
+  .services__list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1904px) {
+  .services__list {
+    flex-direction: row;
+  }
+}
+
 .services__item:not(:last-child) {
   margin-bottom: 20px;
 }

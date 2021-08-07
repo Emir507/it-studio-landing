@@ -28,6 +28,12 @@
   @include md {
     flex-direction: row;
   }
+  @include lg {
+    flex-direction: row;
+  }
+  @include xl {
+    flex-direction: row;
+  }
 }
 .services__item {
   &:not(:last-child) {
