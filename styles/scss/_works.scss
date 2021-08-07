@@ -5,6 +5,12 @@
   @include md {
     background-color: #fff;
   }
+  @include lg {
+    background-color: #fff;
+  }
+  @include xl {
+    background-color: #fff;
+  }
   &:before {
     content: "";
     position: absolute;
@@ -37,6 +43,12 @@
     @include md {
       flex-direction: row;
     }
+    @include lg {
+      flex-direction: row;
+    }
+    @include xl {
+      flex-direction: row;
+    }
   }
   .section__title {
     text-align: unset;
@@ -47,6 +59,12 @@
   grid-template-columns: 1fr;
   grid-gap: 20px;
   @include md {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include lg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include xl {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -63,6 +81,12 @@
   a {
     color: #9b98eb;
     @include md {
+      color: #0d6efd;
+    }
+    @include lg {
+      color: #0d6efd;
+    }
+    @include xl {
       color: #0d6efd;
     }
   }
@@ -87,9 +111,21 @@
   @include md {
     color: #000;
   }
+  @include lg {
+    color: #000;
+  }
+  @include xl {
+    color: #000;
+  }
   span {
     color: #fff;
     @include md {
+      color: $blue;
+    }
+    @include lg {
+      color: $blue;
+    }
+    @include xl {
       color: $blue;
     }
   }
