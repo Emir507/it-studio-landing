@@ -15,7 +15,8 @@
     position: absolute;
     width: 100%;
     height: 50%;
-    background: url("/assets/images/work-video.png") center / cover no-repeat;
+    background: url("./../../assets/images/work-video.png") center/cover
+      no-repeat;
   }
 }
 .video__container {

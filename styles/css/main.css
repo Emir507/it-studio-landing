@@ -243,7 +243,7 @@
 
 .standards__image--aspect {
   padding-top: 80%;
-  background: url("/assets/images/standards-image.png") center/cover no-repeat;
+  background: url("./../../assets/images/standards-image.png") center/cover no-repeat;
 }
 
 .works {
@@ -347,7 +347,7 @@
 .works__item-image {
   margin-bottom: 30px;
   border-radius: 10px;
-  background: url("/assets/images/works.png") center/cover no-repeat;
+  background: url("./../../assets/images/works.png") center/cover no-repeat;
 }
 
 .works__item-image--aspect {
@@ -431,7 +431,7 @@
 }
 
 .projects__item-image {
-  background: url("/assets/images/projects.png") center/cover no-repeat;
+  background: url("./../../assets/images/projects.png") center/cover no-repeat;
   width: 200px;
   height: 200px;
 }
@@ -462,7 +462,7 @@
   position: absolute;
   width: 100%;
   height: 50%;
-  background: url("/assets/images/work-video.png") center/cover no-repeat;
+  background: url("./../../assets/images/work-video.png") center/cover no-repeat;
 }
 
 .video__container {

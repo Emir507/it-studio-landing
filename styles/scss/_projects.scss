@@ -33,24 +33,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
   }
-  // @include sm {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-  // @include md {
-  //   display: grid;
-  //   grid-auto-flow: column;
-  // }
-}
-
-.projects__item {
-  // &:not(:last-child) {
-  //   margin-right: 20px;
-  // }
 }
 
 .projects__item-image {
-  background: url("/assets/images/projects.png") center / cover no-repeat;
+  background: url("./../../assets/images/projects.png") center/cover no-repeat;
   width: 200px;
   height: 200px;
   &:not(:last-child) {
