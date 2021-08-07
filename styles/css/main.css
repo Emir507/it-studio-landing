@@ -25,6 +25,18 @@
   }
 }
 
+@media (min-width: 1264px) and (max-width: 1904px) {
+  .header {
+    display: block;
+  }
+}
+
+@media (min-width: 1904px) {
+  .header {
+    display: block;
+  }
+}
+
 .header__container {
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
   height: 100%;

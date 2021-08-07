@@ -19,6 +19,12 @@
   @include md {
     display: block;
   }
+  @include lg {
+    display: block;
+  }
+  @include xl {
+    display: block;
+  }
 }
 .header__container {
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
