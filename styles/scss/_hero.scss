@@ -1,0 +1,64 @@
+.hero {
+  background: url("./../../assets/images/Rectangle.png") center / cover
+    no-repeat;
+  height: 100vh;
+  min-height: 700px;
+  color: #fff;
+  position: relative;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  display: none;
+  @include md {
+    display: block;
+  }
+}
+.header__container {
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
+  height: 100%;
+  // max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.hero__content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  p {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+    @include xs {
+      font-size: 29px;
+    }
+  }
+  @include xs {
+    width: 90%;
+  }
+}
+.header__nav-item {
+  padding: 20px 0;
+  cursor: pointer;
+  transition: filter 0.4s;
+  &:hover {
+    filter: brightness(0.7);
+  }
+  &.active {
+    border-bottom: 2px solid #fff;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

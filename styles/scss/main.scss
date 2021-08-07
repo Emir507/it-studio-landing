@@ -1,0 +1,55 @@
+@import "./mixins";
+@import "./hero";
+@import "./services";
+@import "./standards";
+@import "./works";
+@import "./projects";
+@import "./video";
+@import "./footer";
+$blue: #4985ff;
+
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.section__text {
+  color: #999999;
+  font-size: 13px;
+  text-align: center;
+}
+
+.blue-button {
+  background-color: $blue;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 20px;
+}
